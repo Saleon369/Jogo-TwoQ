@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_LastSelectedProfileId>C:\Users\Home\Documents\Projeto_Jogo_ANAVIQ\Versao Nova\ANAVIQ\JOGO_ANAVIQ\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Update="frmQuestao01.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmQuestao01_RespostaErrada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmQuestao01_RespotaCorreta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmTelaFinal_QuePena.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmTelaLoading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmTelaSobre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmReferencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmTelaInicial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmTelaNome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1003 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>bin\Debug\net6.0-windows\images\Logos\icone.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\net6.0-windows\images\Logos\icone.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\images\Logos\LOGO_ANAVIQ.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\images\Logos\Icone.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Final_QuePena\TelaFinal_MascoteTriste.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Final_QuePena\btn_menu_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Final_QuePena\QuePena.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Final_QuePena\Mascote_Triste_Final.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Final_QuePena\btn_sair_final_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Final_QuePena\btn_sair_final_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Final_QuePena\btn_prevencao_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Final_QuePena\btn_prevencao_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Final_QuePena\btn_menu_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Final_Parabens\btn_menu_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Final_Parabens\btn_menu_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Final_Parabens\Parabens.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Final_Parabens\Mascote_ParabensFull.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Final_Parabens\Mascote_Parabens.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Final_Parabens\btn_sair_final_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Final_Parabens\btn_sair_final_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Final_Parabens\btn_prevencao_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Final_Parabens\btn_prevencao_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_12\btn_correto12_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_12\btn_absurdo12_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_12\btn_absurdo12_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_12\Resposta_Errada_Certa_12.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_12\Resposta_Errada_12.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_12\Resposta_Certa_12.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_12\Pergunta_12.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_12\Logo_Pergunta12.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_12\btn_quasecorreto12_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_12\btn_quasecorreto12_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_12\btn_errado12_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_12\btn_errado12_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_12\btn_correto12_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_11\btn_absurdo11_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_11\btn_absurdo11_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_11\Resposta_Errada_Certa_11.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_11\Resposta_Errada_11.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_11\Resposta_Certa_11.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_11\Pergunta_11.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_11\Logo_Pergunta11.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_11\btn_quasecorreto11_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_11\btn_quasecorreto11_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_11\btn_errado11_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_11\btn_errado11_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_11\btn_correto11_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_11\btn_correto11_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_10\btn_errado10_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_10\btn_correto10_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_10\btn_correto10_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_10\btn_absurdo10_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_10\btn_absurdo10_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_10\Resposta_Errada_Certa_10.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_10\Resposta_Errada_10.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_10\Resposta_Certa_10.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_10\Pergunta_10.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_10\Logo_Pergunta10.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_10\btn_quasecorreto10_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_10\btn_quasecorreto10_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_10\btn_errado10_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_09\btn_errado09_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_09\btn_correto09_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_09\btn_correto09_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_09\btn_absurdo09_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_09\btn_absurdo09_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_09\Resposta_Errada_Certa_09.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_09\Resposta_Errada_09.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_09\Resposta_Certa_09.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_09\Pergunta_09.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_09\Logo_Pergunta09.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_09\btn_quasecorreto09_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_09\btn_quasecorreto09_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_09\btn_errado09_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_08\btn_correto08_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_08\btn_correto08_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_08\btn_absurdo08_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_08\btn_absurdo08_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_08\Resposta_Errada_Certa_08.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_08\Resposta_Errada_08.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_08\Resposta_Certa_08.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_08\Pergunta_08.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_08\Logo_Pergunta08.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_08\btn_quasecorreto08_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_08\btn_quasecorreto08_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_08\btn_errado08_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_08\btn_errado08_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_07\btn_correto07_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_07\btn_absurdo07_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_07\btn_absurdo07_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_07\Resposta_Errada_Certa_07.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_07\Resposta_Errada_07.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_07\Resposta_Certa_07.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_07\Pergunta_07.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_07\Logo_Pergunta07.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_07\btn_quasecorreto07_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_07\btn_quasecorreto07_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_07\btn_errado07_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_07\btn_errado07_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_07\btn_correto07_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_06\btn_correto06_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_06\btn_absurdo06_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_06\btn_absurdo06_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_06\Resposta_Errada_Certa_06.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_06\Resposta_Errada_06.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_06\Resposta_Certa_06.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_06\Pergunta_06.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_06\Logo_Pergunta06.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_06\btn_quasecorreto06_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_06\btn_quasecorreto06_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_06\btn_errado06_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_06\btn_errado06_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_06\btn_correto06_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_05\btn_correto05_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_05\btn_correto05_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_05\btn_absurdo05_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_05\btn_absurdo05_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_05\Resposta_Errada_Certa_05.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_05\Resposta_Errada_05.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_05\Resposta_Certa_05.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_05\Pergunta_05.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_05\Logo_Pergunta05.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_05\btn_quasecorreto05_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_05\btn_quasecorreto05_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_05\btn_errado05_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_05\btn_errado05_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_04\btn_correto04_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_04\btn_absurdo04_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_04\btn_absurdo04_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_04\Resposta_Errada_Certa_04.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_04\Resposta_Errada_04.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_04\Resposta_Certa_04.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_04\Pergunta_04.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_04\Logo_Pergunta04.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_04\btn_quasecorreto04_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_04\btn_quasecorreto04_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_04\btn_errado04_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_04\btn_errado04_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_04\btn_correto04_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_03\btn_correto03_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_03\btn_absurdo03_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_03\btn_absurdo03_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_03\Resposta_Errada_Certa_03.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_03\Resposta_Errada_03.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_03\Resposta_Certa_03.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_03\Pergunta_03.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_03\Logo_Pergunta03.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_03\btn_quasecorreto03_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_03\btn_quasecorreto03_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_03\btn_errado03_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_03\btn_errado03_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_03\btn_correto03_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_02\btn_correto02_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_02\btn_correto02_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_02\btn_absurdo02_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_02\btn_absurdo02_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_02\Resposta_Errada_Certa_02.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_02\Resposta_Errada_02.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_02\Resposta_Certa_02.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_02\Pergunta_02.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_02\Logo_Pergunta02.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_02\btn_quasecorreto02_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_02\btn_quasecorreto02_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_02\btn_errado02_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_02\btn_errado02_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_01\btn_correto01_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_01\btn_correto01_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_01\btn_absurdo01_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_01\btn_absurdo01_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_01\Resposta_Errada_Certa_01.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_01\Resposta_Errada_01.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_01\Resposta_Certa_01.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_01\Pergunta_01.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_01\Logo_Pergunta01.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_01\btn_quasecorreto01_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_01\btn_quasecorreto01_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_01\btn_errado01_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\Pergunta_01\btn_errado01_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\images\Logos\Logo_Dicas.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\images\Logos\Icone.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\images\Logos\Dicas_Prevencao.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\images\Logos\Teste_Seus_Conhecimentos.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\images\Logos\Sobre_Quiz.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\images\Logos\Referencias_Pesquisadas.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\images\Logos\QUIZ.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\images\Logos\Mascote_Referencia.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\images\Logos\Logo_Sobre_este_Quiz.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\images\btn_jogar_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\images\btn_jogar_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\images\btn_continuar_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\images\btn_continuar_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\images\btn_cancelar_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\images\btn_cancelar_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\images\Vida_Zero.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\images\Vida_Um.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\images\Vida_Tres.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\images\Vida_Quatro.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\images\Vida_Full.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\images\Vida_Dois.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\images\Vida_Cinco.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\images\btn_voltar_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\images\btn_voltar_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\images\btn_voltar_dica_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\images\btn_voltar_dica_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\images\btn_sobre_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\images\btn_sobre_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\images\btn_sair_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\images\btn_sair_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\images\btn_resposta_correta_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\images\btn_resposta_correta_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\images\btn_referencias_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\images\btn_referencias_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\images\btn_proximo_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\images\btn_proximo_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\images\btn_pg_posterior_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\images\btn_pg_posterior_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\images\btn_pg_anterior_normal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\images\btn_pg_anterior_high.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="frmQuestao12_RespotaCorreta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmQuestao12_RespostaErrada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmQuestao12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmQuestao11_RespostaErrada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmQuestao11_RespotaCorreta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmQuestao11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmQuestao10_RespostaErrada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmQuestao10_RespotaCorreta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmQuestao10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmQuestao09_RespostaErrada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmQuestao09_RespotaCorreta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmQuestao09.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmQuestao08_RespostaErrada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmQuestao08_RespotaCorreta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmQuestao08.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmQuestao07_RespostaErrada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmQuestao07_RespotaCorreta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmQuestao07.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmQuestao06_RespostaErrada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmQuestao06_RespotaCorreta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmQuestao06.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmQuestao05_RespostaErrada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmQuestao05_RespotaCorreta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmQuestao05.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmQuestao04_RespostaErrada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmQuestao04_RespotaCorreta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmQuestao04.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmQuestao03_RespostaErrada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmQuestao03_RespotaCorreta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmQuestao03.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmQuestao02_RespostaErrada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmQuestao02.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmQuestao02_RespotaCorreta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmReferencia02.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmTelaFinal_Parabens.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmTelaDicas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

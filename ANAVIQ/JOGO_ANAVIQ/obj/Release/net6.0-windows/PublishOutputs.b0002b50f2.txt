@@ -1,0 +1,5 @@
+C:\Users\Home\Desktop\JOGO_ANAVIQ.exe
+C:\Users\Home\Desktop\JOGO_ANAVIQ.dll
+C:\Users\Home\Desktop\JOGO_ANAVIQ.deps.json
+C:\Users\Home\Desktop\JOGO_ANAVIQ.runtimeconfig.json
+C:\Users\Home\Desktop\JOGO_ANAVIQ.pdb
